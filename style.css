@@ -1,24 +1,34 @@
-body {
+#Frontpage {
     font-family: "Helvetica", sans-serif;
     line-height: 2.0;
-    
-  }
-  h1 {
-    border: rgb(20, 19, 34) solid medium;
-    padding: 0.7em;
-    color: rgb(139, 151, 160);
-    text-align: center;
-    background-color: rgb(21, 21, 32);
-  }
-  #information {
-    text-align: right;
-    padding: 0.7em;
-  }
-  #about{
-    border: rgb(20, 17, 15) solid medium;
-    padding: 0.5em;
-    text-align: center;
-    background-color: rgb(40, 48, 59);
-    color: rgb(171, 183, 192);
-  }
+}
+#Frontpage h1 {
+  border: rgb(53, 50, 88) solid medium;
+  padding: 0.5em;
+  color: rgb(91, 161, 214);
+  text-align: center;
+  background-color: rgb(21, 21, 32);
+}
+#Frontpage #information {
+  text-align: right;
+  padding: 0.7em;
+}
+#Frontpage #about{
+  border: rgb(20, 17, 15) solid medium;
+  padding: 0.5em;
+  text-align: center;
+  background-color: rgb(40, 48, 59);
+  color: rgb(171, 183, 192);
+}
+#Frontpage #research{
+  width: 400px;
+  position: relative;
+  padding: 20px;
+  border: rgb(20, 17, 15) solid medium;
+  background-color: rgb(40, 48, 59);
+  color: rgb(171, 183, 192);
+}
+
+
+
 
