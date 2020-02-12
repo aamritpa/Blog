@@ -1,33 +1,47 @@
-#Frontpage {
+#body #Frontpage{
+    position: sticky;
     font-family: "Helvetica", sans-serif;
     line-height: 2.0;
+    position: fixed; /* Set the navbar to fixed position */
+     top: 0; /* Position the navbar at the top of the page */
+     width: 100%; /* Full width */
+     overflow:hidden
 }
 #Frontpage h1 {
   border: rgb(53, 50, 88) solid medium;
   padding: 0.5em;
-  color: rgb(91, 161, 214);
+  color: rgb(255, 255, 255);
   text-align: center;
   background-color: rgb(21, 21, 32);
+  overflow:hidden
 }
 #Frontpage #information {
   text-align: right;
-  padding: 0.7em;
+  padding: em;
+  width:200px;
+  overflow: hidden;
+  overflow:hidden
 }
 #Frontpage #about{
-  border: rgb(20, 17, 15) solid medium;
-  padding: 0.5em;
+  border: rgb(255, 255, 255) solid medium;
+  padding: 0.8em;
   text-align: center;
-  background-color: rgb(40, 48, 59);
+  background-color: rgb(122, 121, 128);
   color: rgb(171, 183, 192);
+  overflow:hidden
 }
 #Frontpage #research{
-  width: 400px;
-  position: relative;
+  height:300px;
   padding: 20px;
+  text-align: center;
   border: rgb(20, 17, 15) solid medium;
   background-color: rgb(40, 48, 59);
   color: rgb(171, 183, 192);
+  margin: auto;
+  width: 70%;
+  overflow:hidden
 }
+
 
 
 
