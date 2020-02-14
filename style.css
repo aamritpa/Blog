@@ -1,12 +1,22 @@
+<<<<<<< HEAD
 #Frontpage{
+=======
+#body #Frontpage{
+>>>>>>> caeb9f8568f845551f84c98eb56a9e77a9d3ddd4
     position: sticky;
     font-family: "Helvetica", sans-serif;
     line-height: 2.0;
     position: fixed; /* Set the navbar to fixed position */
+<<<<<<< HEAD
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     overflow:hidden;
     background-color: rgb(151, 151, 172);
+=======
+     top: 0; /* Position the navbar at the top of the page */
+     width: 100%; /* Full width */
+     overflow:hidden
+>>>>>>> caeb9f8568f845551f84c98eb56a9e77a9d3ddd4
 }
 #Frontpage h1 {
   border: rgb(53, 50, 88) solid medium;
@@ -14,6 +24,7 @@
   color: rgb(255, 255, 255);
   text-align: center;
   background-color: rgb(21, 21, 32);
+<<<<<<< HEAD
   overflow:hidden;
 }
 #Frontpage #information {
@@ -32,6 +43,24 @@
   overflow:hidden;
   height:300px;
   margin: auto;
+=======
+  overflow:hidden
+}
+#Frontpage #information {
+  text-align: right;
+  padding: em;
+  width:200px;
+  overflow: hidden;
+  overflow:hidden
+}
+#Frontpage #about{
+  border: rgb(255, 255, 255) solid medium;
+  padding: 0.8em;
+  text-align: center;
+  background-color: rgb(122, 121, 128);
+  color: rgb(171, 183, 192);
+  overflow:hidden
+>>>>>>> caeb9f8568f845551f84c98eb56a9e77a9d3ddd4
 }
 #Frontpage #research{
   height:300px;
@@ -41,8 +70,13 @@
   background-color: rgb(40, 48, 59);
   color: rgb(171, 183, 192);
   margin: auto;
+<<<<<<< HEAD
   overflow:hidden;
   
+=======
+  width: 70%;
+  overflow:hidden
+>>>>>>> caeb9f8568f845551f84c98eb56a9e77a9d3ddd4
 }
 
 
