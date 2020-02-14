@@ -1,24 +1,51 @@
-body {
+#Frontpage{
+    position: sticky;
     font-family: "Helvetica", sans-serif;
     line-height: 2.0;
-    
-  }
-  h1 {
-    border: rgb(20, 19, 34) solid medium;
-    padding: 0.7em;
-    color: rgb(139, 151, 160);
-    text-align: center;
-    background-color: rgb(21, 21, 32);
-  }
-  #information {
-    text-align: right;
-    padding: 0.7em;
-  }
-  #about{
-    border: rgb(20, 17, 15) solid medium;
-    padding: 0.5em;
-    text-align: center;
-    background-color: rgb(40, 48, 59);
-    color: rgb(171, 183, 192);
-  }
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    overflow:hidden;
+    background-color: rgb(151, 151, 172);
+}
+#Frontpage h1 {
+  border: rgb(53, 50, 88) solid medium;
+  padding: 0.5em;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-color: rgb(21, 21, 32);
+  overflow:hidden;
+}
+#Frontpage #information {
+  text-align: center;
+  padding: 20em;
+  width:600px;
+  overflow: hidden;
+  
+}
+#Frontpage #about{
+  border: rgb(255, 255, 255) solid medium;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(122, 121, 128);
+  color: rgb(171, 183, 192);
+  overflow:hidden;
+  height:300px;
+  margin: auto;
+}
+#Frontpage #research{
+  height:300px;
+  padding: 20px;
+  text-align: center;
+  border: rgb(20, 17, 15) solid medium;
+  background-color: rgb(40, 48, 59);
+  color: rgb(171, 183, 192);
+  margin: auto;
+  overflow:hidden;
+  
+}
+
+
+
+
 
